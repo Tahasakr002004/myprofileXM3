@@ -1,3 +1,88 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Add any additional global styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #031c06;
+    --second-bg-color: #0a0c09;
+    --text-color: #fff;
+    --main-color: #b1de00;
+    --logo-color: #FFCB36;
+    --green-color: #058240;
+    --beige-color: #FEE3A2;
+    --light-mode-color:  #bbf7d0;
+}
+
+*::selection {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+html {
+    font-size: 63%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background: var(--bg-color);
+    color: var(--logo-color);
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin: 10px;
+}
+
+.btn:hover {
+    box-shadow: none;
+    background-color: var(--logo-color);
+}
+
+span {
+    color: var(--main-color);
+}

@@ -38,11 +38,6 @@ body {
 }
 
 
-section {
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-}
-
 @keyframes floatImage {
     0% {
         transform: translateY(0);
@@ -55,8 +50,13 @@ section {
     100% {
         transform: translateY(0);
     }
-}
+} 
 
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
 .social-media a {
     display: inline-flex;
     justify-content: center;
