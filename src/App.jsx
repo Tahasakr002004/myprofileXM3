@@ -8,6 +8,9 @@ import ServiceSec from './Components/ServiceSec';
 import PortfolioSec from './Components/PortfolioSec';
 import ContactSec from './Components/ContactSec';
 import FooterSec from './Components/FooterSec';
+
+
+
 const App = () => {
 
   return (
@@ -18,7 +21,7 @@ const App = () => {
       <ServiceSec/>
       <PortfolioSec/>
       <ContactSec/>
-      <FooterSec/>
+      <FooterSec />      
     </div>
       
   );

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -38,10 +38,7 @@ body {
 }
 
 
-section {
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-}
+
 
 @keyframes floatImage {
     0% {
@@ -55,7 +52,13 @@ section {
     100% {
         transform: translateY(0);
     }
+} 
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
+
 
 .social-media a {
     display: inline-flex;
