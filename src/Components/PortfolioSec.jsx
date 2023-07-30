@@ -15,7 +15,7 @@ function PortfolioSec() {
 
     <div className={style.container}>
     <section className={style.portfolio}  id="portfolio">
-        <h2 className={style.heading}>meine <span>Projekts</span></h2>
+        <h2 className={style.heading}>meine <span>Projekte</span></h2>
 
         <div className={style['portfolio-container']}>
             <div className={style['portfolio-box']}>
