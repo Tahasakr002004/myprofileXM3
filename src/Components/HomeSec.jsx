@@ -57,10 +57,10 @@ function HomeSec () {
             <span ref={el} className={style['.multiple-text']}></span></h3>
           <p>Hallo zusammen, ich begrüße euch zu meiner Website,um meine Erfahrungen in SoftwareEntwicklung vorzustellen.</p><h3>let's Go</h3>
           <div className={ classNames(style['social-media'], mediaMode)}>
-            <a href="###"><i className='bx bxl-github'></i></a>
-            <a href="###"><i className='bx bxl-twitter'></i></a>
-            <a href="###"><i className='bx bxl-instagram-alt'></i></a>
-            <a href="###"><i className='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Tahasakr002004"><i className='bx bxl-github'></i></a>
+            <a href="https://twitter.com/Tahasakr12"><i className='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/sakr.taha"><i className='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/taha-elsayed-a52a97186"><i className='bx bxl-linkedin'></i></a>
           </div>
           <a href="###" className={style.btn} onClick={handleDownload1}>Lebenslauf</a>
           <a href="###" className={style.btn} onClick={handleDownload2}> Zeugnisse </a>
